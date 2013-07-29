@@ -1,0 +1,2 @@
+java -cp lib/scribe-1.3.4.jar;lib/gson-2.2.2.jar;lib/commons-io-2.1.jar;lib/httpclient-4.1.3.jar;lib/httpcore-4.1.4.jar;lib/commons-logging-1.1.1.jar;build/discogs-api-wrapper.jar com.discogs.api.ApiClient
+@pause

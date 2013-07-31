@@ -1,9 +1,9 @@
-Release release = client.getRelease("1");
-Master master = client.getMaster("8471");
-Label label = client.getLabel("Planet E");
-Map<String, String> params = new HashMap<String, String>();
-params.put("q", "Ken Ishii - Pneuma");
-params.put("type", "release");
-SearchResults search = client.search(params);
-Listing listing = client.getListing("41578241");
+Release release = client.getRelease("1");<br/>
+Master master = client.getMaster("8471");<br/>
+Label label = client.getLabel("Planet E");<br/>
+Map<String, String> params = new HashMap<String, String>();<br/>
+params.put("q", "Ken Ishii - Pneuma");<br/>
+params.put("type", "release");<br/>
+SearchResults search = client.search(params);<br/>
+Listing listing = client.getListing("41578241");<br/>
 Order order = client.getOrder()
